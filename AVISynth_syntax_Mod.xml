@@ -1,0 +1,64 @@
+<NotepadPlus>
+    <UserLang name="AVISynth" ext="avs avsi" udlVersion="2.1">
+        <Settings>
+            <Global caseIgnored="yes" allowFoldOfComments="no" foldCompact="no" forcePureLC="0" decimalSeparator="0" />
+            <Prefix Keywords1="no" Keywords2="no" Keywords3="no" Keywords4="no" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Comments">00# 01 02 03/* 04*/</Keywords>
+            <Keywords name="Numbers, prefix1"></Keywords>
+            <Keywords name="Numbers, prefix2"></Keywords>
+            <Keywords name="Numbers, extras1"></Keywords>
+            <Keywords name="Numbers, extras2"></Keywords>
+            <Keywords name="Numbers, suffix1"></Keywords>
+            <Keywords name="Numbers, suffix2"></Keywords>
+            <Keywords name="Numbers, range"></Keywords>
+            <Keywords name="Operators1">- ! $ % ( ) * , . / : ? ^ | + &lt; = &gt;</Keywords>
+            <Keywords name="Operators2"></Keywords>
+            <Keywords name="Folders in code1, open">Try Catch Function</Keywords>
+            <Keywords name="Folders in code1, middle"></Keywords>
+            <Keywords name="Folders in code1, close">}</Keywords>
+            <Keywords name="Folders in code2, open"></Keywords>
+            <Keywords name="Folders in code2, middle"></Keywords>
+            <Keywords name="Folders in code2, close"></Keywords>
+            <Keywords name="Folders in comment, open"></Keywords>
+            <Keywords name="Folders in comment, middle"></Keywords>
+            <Keywords name="Folders in comment, close"></Keywords>
+            <Keywords name="Keywords1">true false \ return global</Keywords>
+            <Keywords name="Keywords2">Abs Apply Assert AverageLuma AverageChromaU AverageChromaV Ceil Cos Chr ChromaUDifference ChromaVDifference Defined Default Exp Exist Eval Floor Frac Float Findstr GetMTMode HexValue Int IsBool IsClip IsFloat IsInt IsString Import LoadPlugin Log LCase LeftStr LumaDifference LoadVirtualDubPlugin LoadVFAPIPlugin LoadCPlugin Load_Stdcall_Plugin Max MulDiv MidStr NOP OPT_AllowFloatAudio OPT_UseWaveExtensible Pi Pow Round Rand RevStr RightStr RGBDifference RGBDifferenceFromPrevious RGBDifferenceToNext Sin Sqrt Sign Spline StrLen String Select SetMemoryMax SetWorkingDir SetMTMode SetPlanarLegacyAlignment Time UCase UDifferenceFromPrevious UDifferenceToNext UPlaneMax UPlaneMin UPlaneMedian UPlaneMinMaxDifference Value VersionNumber VersionString VDifferenceFromPrevious VDifferenceToNext VPlaneMax VPlaneMin VPlaneMedian VPlaneMinMaxDifference YDifferenceFromPrevious YDifferenceToNext YPlaneMax YPlaneMin YPlaneMedian YPlaneMinMaxDifference</Keywords>
+            <Keywords name="Keywords3">AddGrain AddGrainC DSS2 avstp_set_threads aBlur aSobel aWarp aWarp4 aWarpSharp aWarpSharp2 ColorMatrix Convolution3D DctAddConstant DctFilterD DctFilter Deblock Decimate FieldDeinterlace IsCombed Telecide dfttest BlindPP LumaYV12 MPEG2Source Dither_add16 Dither_bilateral16 Dither_box_filter16 Dither_limit_dif16 Dither_max_dif16 Dither_median16 Dither_merge16 Dither_out Dither_removegrain16 Dither_repair16 Dither_resize16 Dither_sub16 ditherpost ditherBuildMask SmoothGrad EEDI2 imp_EEDI2 eedi3 eedi3_rpow2 FFAudioSource FFGetLogLevel FFGetVersion FFIndex FFSetLogLevel FFVideoSource SWScale FFT3DFilter FFT3DGPU FillMargins f3kdb f3kdb_dither flash3kyuu_deband FluxSmoothST FluxSmoothT gradfun2db JpegSource KNLMeansCL LeakKernelBob LeakKernelDeint LSMASHAudioSource LSMASHVideoSource LWLibavAudioSource LWLibavVideoSource mt_adddiff mt_average mt_binarize mt_cricle mt_clamp mt_convolution mt_deflate mt_dimond mt_edge mt_ellipse mt_expand mt_freeellipse mt_freelosange mt_freerectangle mt_gradient mt_hysteresis mt_infix mt_inflate mt_inpand mt_invert mt_logic mt_losange mt_lut mt_lutf mt_luts mt_lutspa mt_lutsx mt_lutxy mt_lutxyz mt_makediff mt_mappedblur mt_merge mt_motion mt_polish mt_rectangle mt_square medianBlur medianBlurb medianBlurcw medianBlurt ml3dex MipSmooth MP_Pipeline MPP_SharedMemoryClient MPP_SharedMemoryServer SelectThunkEvery ThunkedInterleave MSharpen nnedi3 nnedi3_rpow2 RemoveGrain Repair RSharpen SangNom SangNom2 tcanny tdrans Gblur TCannyMod TDecimate TFM TMM UnDot MaskSub TextSub TextSubSwapUV VobSub Yadif</Keywords>
+            <Keywords name="Keywords4">AviSource AviFileSource AddBorders AlignedSplice AssumeFPS AssumeScaledFPS AssumeFrameBased AssumeFieldBased AssumeBFF AssumeTFF Amplify AmplifydB AssumeSampleRate AudioDub AudioDubEx Animate ApplyRange BicubicResize BilinearResize BlackmanResize Blur Bob BlankClip Blackness ColorYUV ConvertBackToYUY2 ConvertToRGB ConvertToRGB24 ConvertToRGB32 ConvertToYUY2 ConvertToY8 ConvertToYV411 ConvertToYV12 ConvertToYV16 ConvertToYV24 ColorKeyMask Crop CropBottom ChangeFPS ConvertFPS ComplementParity ConvertAudioTo8bit ConvertAudioTo16bit ConvertAudioTo24bit ConvertAudioTo32bit ConvertAudioToFloat ConvertToMono ConditionalFilter ConditionalReader ColorBars Compare DirectShowSource DeleteFrame Dissolve DuplicateFrame DoubleWeave DelayAudio EnsureVBRMP3Sync FixLuminance FlipHorizontal FlipVertical FixBrokenChromaUpsampling FadeIn0 FadeIn FadeIn2 FadeOut0 FadeOut FadeOut2 FadeIO0 FadeIO FadeIO2 FreezeFrame FrameEvaluate GreyScale GaussResize GeneralConvolution GetChannel GetLeftChannel GetRightChannel HorizontalReduceBy2 Histogram ImageReader ImageSource ImageWriter Invert Interleave Info KillAudio KillVideo Levels Limiter Layer Letterbox LanczosResize Lanczos4Resize Loop MergeARGB MergeRGB MergeChroma MergeLuma Merge Mask MaskHS MergeChannels MixAudio MonoToStereo MessageClip Normalize OpenDMLSource Overlay PointResize PeculiarBlend Pulldown RGBAdjust ResetMask Reverse ResampleAudio ReduceBy2 SegmentedAviSource SegmentedDirectShowSource SoundOut ShowAlpha ShowRed ShowGreen ShowBlue SwapUV Subtract SincResize Spline16Resize Spline36Resize Spline64Resize SelectEven SelectOdd SelectEvery SelectRangeEvery Sharpen SpatialSoften SeparateFields ShowFiveVersions ShowFrameNumber ShowSMPTE ShowTime StackHorizontal StackVertical Subtitle SwapFields SuperEQ SSRC ScriptClip Tweak TurnLeft TurnRight Turn180 TemporalSoften TimeStretch TCPServer TCPSource Trim Tone UtoY8 UtoY UnalignedSplice VtoY8 VtoY VerticalReduceBy2 Version WavSource Weave WriteFile WriteFileIf WriteFileStart WriteFileEnd YToUV</Keywords>
+            <Keywords name="Keywords5">AnimeIVTC BitDepth C16 CSmod16_ CSmod DeRainbow DeRainbowYUV2 Dither_add_grain16 Dither_addborders16 Dither_build_gf3_range_mask Dither_convert_8_to_16 Dither_convert_rgb_to_yuv Dither_convert_yuv_to_rgb Dither_crop16 Dither_expr_part Dither_lut16 Dither_lut16_expr Dither_lut8 Dither_lutxy8 Dither_lutxyz8 Dither_max Dither_merge16_8 Dither_min Dither_resize16nr Dither_y_to_uv Down10 EraseLOGO MinBlur MinBlur16 nnedi3_resize16 nnedi3_resize16_Down8 nnedi3_resize16_U16 QTGMC sbr sbr16 SMDegrain taa taaMod U16</Keywords>
+            <Keywords name="Keywords6">last</Keywords>
+            <Keywords name="Keywords7"></Keywords>
+            <Keywords name="Keywords8"></Keywords>
+            <Keywords name="Delimiters">00&quot; 01 02&quot; 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" fgColor="E0E2E4" bgColor="293134" fontName="Consolas" fontStyle="1" fontSize="11" nesting="0" />
+            <WordsStyle name="COMMENTS" fgColor="66747B" bgColor="293134" fontName="Consolas" fontStyle="0" fontSize="11" nesting="0" />
+            <WordsStyle name="LINE COMMENTS" fgColor="66747B" bgColor="293134" fontName="Consolas" fontStyle="0" fontSize="11" nesting="0" />
+            <WordsStyle name="NUMBERS" fgColor="FFCD22" bgColor="293134" fontName="" fontStyle="0" fontSize="11" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="00659B" bgColor="293134" fontName="Consolas" fontStyle="1" fontSize="11" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="A082BD" bgColor="293134" fontName="Consolas" fontStyle="1" fontSize="11" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="678CB1" bgColor="293134" fontName="Consolas" fontStyle="1" fontSize="11" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="678CB1" bgColor="293134" fontName="Consolas" fontStyle="1" fontSize="11" nesting="0" />
+            <WordsStyle name="KEYWORDS5" fgColor="93C763" bgColor="293134" fontName="Consolas" fontStyle="1" fontSize="11" nesting="0" />
+            <WordsStyle name="KEYWORDS6" fgColor="F92672" bgColor="293134" fontName="Consolas" fontStyle="1" fontSize="11" nesting="0" />
+            <WordsStyle name="KEYWORDS7" fgColor="8080FF" bgColor="293134" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="OPERATORS" fgColor="E8E2B7" bgColor="293134" fontName="Consolas" fontStyle="0" fontSize="11" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE1" fgColor="8000FF" bgColor="FFFF80" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE2" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN COMMENT" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="EC7600" bgColor="293134" fontName="Consolas" fontStyle="1" fontSize="11" nesting="0" />
+            <WordsStyle name="DELIMITERS2" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS3" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS4" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS5" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS6" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS7" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>
